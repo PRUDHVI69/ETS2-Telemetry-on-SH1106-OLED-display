@@ -4,6 +4,7 @@ This is a modified code of silas parker where he uses 16x2 crystal lcd display i
 
 The dash_plugin.txt files contains the COM port settings and some setings of these channels so as i'm  only using speed for that display you need to tune the numbers they acts as multiplier which is good for different output devices and here are mine.
 
+i'm using silas parker telemtry and U8g2lib as the display driver.
 
 /* 
 comport str COM3
@@ -19,3 +20,6 @@ factor_water_temperature    flt   1.0
 factor_battery_voltage      flt   5.0
 
 */
+
+
+The display i'm using is a SH1106 and the code only works for that display and i'll update for other displays.
